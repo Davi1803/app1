@@ -9,7 +9,9 @@ import android.widget.TextView;
 public class NextActivity extends AppCompatActivity {
 
     @Override
+    //Criando o método onCreate
     protected void onCreate(Bundle savedInstanceState) {
+        //Chamando superclasse do método
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next);
         //pegando o intent criador da tela NextActivity

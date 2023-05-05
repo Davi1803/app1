@@ -13,7 +13,9 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     @Override
+    //Criando o método oncreate
     protected void onCreate(Bundle savedInstanceState) {
+        //Chamando a superclasse do método
         super.onCreate(savedInstanceState);
         //cria a tela
         setContentView(R.layout.activity_main);
